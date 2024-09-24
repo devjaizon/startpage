@@ -14,7 +14,7 @@ const CONFIG = {
 	name: 'Jaizon',
 	imageBackground: true,
 	openInNewTab: true,
-	twelveHourFormat: false,
+	twelveHourFormat: true,
 
 	// Greetings
 	greetingMorning: 'Bom Dia!',
@@ -26,14 +26,14 @@ const CONFIG = {
 	bentoLayout: 'buttons', // 'bento', 'lists', 'buttons'
 
 	// Weather
-	weatherKey: '1a574cba6c46aef984b2efbe3061b147', // Write here your API Key
+	weatherKey: '9ac9448ad850827441d6a470bf4be018', // Write here your API Key
 	weatherIcons: 'OneDark', // 'Onedark', 'Nord', 'Dark', 'White'
 	weatherUnit: 'C', // 'F', 'C'
 	language: 'pt_br', // More languages in https://openweathermap.org/current#multi
 
 	trackLocation: true, // If false or an error occurs, the app will use the lat/lon below
-	defaultLatitude: '37.775',
-	defaultLongitude: '-122.419',
+	defaultLatitude: '-11.5639',
+	defaultLongitude: '-39.2828',
 
 	// Autochange
 	autoChangeTheme: true,
